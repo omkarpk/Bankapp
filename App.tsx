@@ -15,7 +15,7 @@ function App(): React.JSX.Element {
 
   return (
    <View>
-    <Text>Banking</Text>
+    <Text>Banking App</Text>
    </View>
   );
 }
