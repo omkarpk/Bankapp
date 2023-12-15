@@ -1,16 +1,18 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  SafeAreaView,
+  StatusBar,
   StyleSheet,
-  Text,
-  View,
 } from 'react-native';
+import Registration from './src/components/Registration';
 
 function App(): React.JSX.Element {
   return (
-    <View>
-      <Text>Banking app</Text>
-    </View>
+   <SafeAreaView>
+    <Registration/>
+    <StatusBar />
+   </SafeAreaView>
   );
 }
 
