@@ -11,17 +11,16 @@ import {
 } from 'react-native';
 
 function App(): React.JSX.Element {
-  
-
   return (
-   <View>
-    <Text>Banking app</Text>
-   </View>
+    <View>
+      <Text>Banking app</Text>
+      <Text>Banking app</Text>
+      <Text>Banking app</Text>
+      <Text>Banking app</Text>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
- 
-});
+const styles = StyleSheet.create({});
 
 export default App;
